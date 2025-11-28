@@ -209,7 +209,7 @@ export default function SportsBooking() {
             is_partial_payment: partial,
           });
           toast.success("Payment verified!");
-          window.location.href = "/My-bookings";
+          window.location.href = "/my-bookings";
         },
       };
 
